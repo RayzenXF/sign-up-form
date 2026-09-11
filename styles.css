@@ -1,11 +1,36 @@
 * {
     margin: 0;
     padding: 0;
+    font-size: 1rem;
 }
 
 body {
     background-color: lightgray;
 }
+
+.container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+
+/* .right-side, .left-side {
+    border: 3px solid red;
+} */
+
+.right-side {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+    width: 70vw;
+}
+
+/* .left-side {
+    width: 30vw;
+    background-color: black;
+    border-right: 3px solid red;
+} */
 
 .upper-form-container {
     background-color: white;
