@@ -11,6 +11,8 @@ body {
     background-color: lightgray;
 }
 
+/* ====== PAGE ====== */
+
 .container {
     display: flex;
     flex-direction: row;
@@ -31,10 +33,7 @@ body {
     height: 100vh;
 }
 
-form {
-    margin-top: auto;
-    margin-bottom: auto;
-}
+/* ====== FORM ====== */
 
 fieldset {
     border: none;
@@ -73,4 +72,21 @@ fieldset {
     width: 100%;
     height: 100%;
     border-right: 3px solid white;
+}
+
+/* ====== TEXT ====== */
+
+.text-info {
+    margin-top: 100px;
+    margin-bottom: 50px;
+}
+
+#separate-text {
+    margin-top: 20px;
+}
+
+/* ====== LOWER FORM ====== */
+
+.lower-form-container {
+    margin-top: 20px;
 }
