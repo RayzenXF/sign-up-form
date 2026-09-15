@@ -3,7 +3,7 @@
     padding: 0;
 }
 
-p {
+.text {
     font-size: 1rem;
 }
 
@@ -21,13 +21,19 @@ body {
     display: flex;
     flex-direction: column;
     flex-wrap: nowrap;
-    justify-content: center;
+    justify-content: flex-start;
     width: 60vw;
+    height: 100vh;
 }
 
 .left-side {
     width: 40vw;
     height: 100vh;
+}
+
+form {
+    margin-top: auto;
+    margin-bottom: auto;
 }
 
 fieldset {
@@ -57,7 +63,7 @@ fieldset {
 
 .left-form-column, .text, legend, .lower-form-container {
     margin-left: 2vw;
-} 
+}
 
 .image-container {
     background: url(images/side-img.jpg);
