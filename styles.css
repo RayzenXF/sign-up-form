@@ -27,8 +27,8 @@ body {
 .right-container {
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: stretch;
+    /* justify-content: center;
+    align-items: stretch; */
     height: 100vh;
 }
 
@@ -43,14 +43,19 @@ fieldset {
     border: none;
 }
 
+form {
+    height: 30vh;
+}
+
 .upper-form-container {
-    background-color: white;
     display: flex;
     flex-direction: row;
     gap: 50px;
+    /* padding: 20px; */
+    /* margin-top: 100px;
+    margin-bottom: 30px; */
     padding: 20px;
-    margin-top: 100px;
-    margin-bottom: 30px;
+    background-color: white;
 }
 
 .form-column {
@@ -66,10 +71,6 @@ fieldset {
     gap: 5px;
 }
 
-/* .left-form-column, .text, legend, .lower-form-container {
-    margin-left: 2vw;
-} */
-
 .image-container {
     background: url(images/side-img.jpg);
     background-size: cover;
@@ -80,8 +81,22 @@ fieldset {
     border-right: 3px solid white;
 }
 
+.lower-form-container {
+    background-color: lightgray;
+    margin-top: 30px;
+}
+
 /* ====== TEXT ====== */
+
+.text-info {
+    margin: 100px 0;
+}
 
 #separate-text {
     margin-top: 20px;
+}
+
+.form-heading {
+    background-color: white;
+    padding-left: 20px;
 }
