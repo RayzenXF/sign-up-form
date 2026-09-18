@@ -54,7 +54,7 @@ fieldset {
     flex-wrap: wrap;
     column-gap: 50px;
     row-gap: 15px;
-    padding: 20px;
+    padding: 30px;
     background-color: var(--form-clr);
 }
 
@@ -88,7 +88,7 @@ fieldset {
 .lower-form-container {
     background-color: var(--background-clr);
     margin-top: 30px;
-    margin-left: 20px;
+    margin-left: 30px;
 }
 
 /* ====== TEXT ====== */
@@ -101,7 +101,7 @@ fieldset {
 
 .text-info {
     margin-top: 100px;
-    margin-left: 20px;
+    margin-left: 30px;
     margin-bottom: 50px;
     max-width: 700px;
 }
