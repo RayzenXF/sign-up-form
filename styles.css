@@ -3,7 +3,7 @@
     --form-clr: #f6f7f9;
     --main-text-clr: black;
     --form-text-clr: black;
-    --accent-clr: gold;
+    --accent-clr: #ff8000;
 }
 
 * {
@@ -133,4 +133,16 @@ label {
 .upper-form-container input {
     width: 250px;
     padding: 5px;
+}
+
+.submit-button {
+    padding: 10px 40px;
+    border: none;
+    border-radius: 5px;
+    background-color: var(--accent-clr);
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    letter-spacing: 1.2px;
 }
