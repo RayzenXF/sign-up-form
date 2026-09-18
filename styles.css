@@ -122,6 +122,14 @@ fieldset {
 label {
     color: var(--form-text-clr);
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 13px;
-    letter-spacing: 1.5px;
+    font-size: 11px;
+    font-weight: 600;
+    letter-spacing: 1.2px;
+}
+
+/* ====== INPUTS ====== */
+
+.upper-form-container input {
+    width: 250px;
+    padding: 5px;
 }
