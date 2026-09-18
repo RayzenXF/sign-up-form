@@ -1,10 +1,21 @@
+:root {
+    --background-clr: #dee2e6;
+    --form-clr: #f6f7f9;
+    --main-text-clr: black;
+    --form-text-clr: black;
+}
+
 * {
     margin: 0;
     padding: 0;
 }
 
 body {
-    background-color: lightgray;
+    background-color: var(--background-clr);
+}
+
+.text {
+    color: var(--main-text-clr);
 }
 
 /* ====== PAGE ====== */
@@ -42,7 +53,7 @@ fieldset {
     flex-direction: row;
     gap: 50px;
     padding: 20px;
-    background-color: white;
+    background-color: var(--form-clr);
 }
 
 .form-column {
@@ -69,7 +80,7 @@ fieldset {
 }
 
 .lower-form-container {
-    background-color: lightgray;
+    background-color: var(--background-clr);
     margin-top: 30px;
     margin-left: 20px;
 }
@@ -94,7 +105,8 @@ fieldset {
 }
 
 .form-heading {
-    background-color: white;
+    color: var(--form-text-clr);
+    background-color: var(--form-clr);
     padding: 10px 20px;
 }
 
@@ -104,6 +116,7 @@ fieldset {
 } 
 
 label {
+    color: var(--form-text-clr);
     font-family: Arial, Helvetica, sans-serif;
     font-size: 13px;
     letter-spacing: 1.5px;
