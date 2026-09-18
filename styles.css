@@ -3,6 +3,7 @@
     --form-clr: #f6f7f9;
     --main-text-clr: black;
     --form-text-clr: black;
+    --accent-clr: gold;
 }
 
 * {
@@ -50,8 +51,9 @@ fieldset {
 
 .upper-form-container {
     display: flex;
-    flex-direction: row;
-    gap: 50px;
+    flex-wrap: wrap;
+    column-gap: 50px;
+    row-gap: 15px;
     padding: 20px;
     background-color: var(--form-clr);
 }
@@ -60,7 +62,11 @@ fieldset {
     display: flex;
     flex-direction: column;
     gap: 15px;
-    width: 200px;
+}
+
+.form-heading {
+    flex: 0 0 100%;
+    box-sizing: border-box;
 }
 
 .input-container {
@@ -106,8 +112,6 @@ fieldset {
 
 .form-heading {
     color: var(--form-text-clr);
-    background-color: var(--form-clr);
-    padding: 10px 20px;
 }
 
 #log-in-text {
