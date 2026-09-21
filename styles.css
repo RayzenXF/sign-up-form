@@ -121,7 +121,7 @@ fieldset {
     margin-top: 20px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     color: #343a40;
-} 
+}
 
 label {
     color: var(--form-text-clr);
@@ -131,10 +131,16 @@ label {
     letter-spacing: 1.2px;
 }
 
-.lower-form-container a {
+#log-in-link {
     text-decoration: none;
     color: var(--accent-clr);
     font-weight: bold;
+    transition: 0.2s;
+}
+
+#log-in-link:hover {
+    color: #8d4e83;
+    text-decoration: underline;
 }
 
 /* ====== INPUTS ====== */
