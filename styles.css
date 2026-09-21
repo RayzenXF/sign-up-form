@@ -3,8 +3,10 @@
     --form-clr: #f6f7f9;
     --main-text-clr: black;
     --form-text-clr: black;
-    --accent-clr: #ff8000;
+    --accent-clr: #3A2036;
 }
+
+/* #DCE8D8, #3A2036, #ff8000, #f6f7f9, #dee2e6 */
 
 * {
     margin: 0;
