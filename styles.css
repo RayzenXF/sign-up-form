@@ -177,6 +177,10 @@ label {
     color: var(--accent-clr);
 }
 
+.submit-button:active {
+    transform: scale(0.8);
+}
+
 /* ====== LOGO ====== */
 
 .image-container {
