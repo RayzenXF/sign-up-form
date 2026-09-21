@@ -6,7 +6,7 @@
     --accent-clr: #3A2036;
 }
 
-/* #DCE8D8, #3A2036, #ff8000, #f6f7f9, #dee2e6, #343a40 */
+/* #f2f4f7, #DCE8D8, #3A2036, #ff8000, #f6f7f9, #dee2e6, #343a40, #E5E7EB */
 
 * {
     margin: 0;
@@ -139,9 +139,16 @@ label {
 
 /* ====== INPUTS ====== */
 
-.upper-form-container input {
+.input-container input {
     width: 250px;
     padding: 5px;
+    background-color: #f2f4f7;
+    border: 2px solid #E5E7EB;
+    border-radius: 5px;
+}
+
+.input-container input:focus {
+    box-shadow: 0px 5px 5px 0px rgba(0, 0, 0, 0.2);
 }
 
 .submit-button {
