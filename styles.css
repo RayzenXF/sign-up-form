@@ -131,6 +131,12 @@ label {
     letter-spacing: 1.2px;
 }
 
+.lower-form-container a {
+    text-decoration: none;
+    color: var(--accent-clr);
+    font-weight: bold;
+}
+
 /* ====== INPUTS ====== */
 
 .upper-form-container input {
@@ -148,10 +154,4 @@ label {
     font-size: 16px;
     font-weight: 600;
     letter-spacing: 1.2px;
-}
-
-.lower-form-container a {
-    text-decoration: none;
-    color: var(--accent-clr);
-    font-weight: bold;
 }
