@@ -6,7 +6,7 @@
     --accent-clr: #3A2036;
 }
 
-/* #DCE8D8, #3A2036, #ff8000, #f6f7f9, #dee2e6 */
+/* #DCE8D8, #3A2036, #ff8000, #f6f7f9, #dee2e6, #343a40 */
 
 * {
     margin: 0;
@@ -120,6 +120,7 @@ fieldset {
 #log-in-text {
     margin-top: 20px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #343a40;
 } 
 
 label {
