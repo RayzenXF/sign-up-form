@@ -1,8 +1,8 @@
 :root {
     --background-clr: #dee2e6;
     --form-clr: #f6f7f9;
-    --main-text-clr: black;
-    --form-text-clr: black;
+    --main-text-clr: #0a0908;
+    --form-text-clr: #495057;
     --accent-clr: #3A2036;
 }
 
@@ -114,7 +114,7 @@ fieldset {
 }
 
 .form-heading {
-    color: var(--form-text-clr);
+    color: #0a0908;
 }
 
 #log-in-text {
