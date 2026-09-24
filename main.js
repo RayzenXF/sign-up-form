@@ -17,7 +17,7 @@ function passConfCheck() {
     const passValue = passInput.value;
     const passConfValue = passInputConf.value;
 
-    if (passValue != passConfValue) {
+    if (passValue !== passConfValue) {
         passSpanConf.textContent = "Password did not match";
     } else if (passValue === passConfValue) {
         passSpanConf.textContent = "";
