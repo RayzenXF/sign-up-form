@@ -230,3 +230,11 @@ label {
     font-weight: 600;
     letter-spacing: 1.2px;
 }
+
+input:user-valid {
+    border-color: green;
+}
+
+input:user-invalid {
+    border-color: red;
+}
