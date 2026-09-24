@@ -6,7 +6,7 @@
     --accent-clr: #3A2036;
 }
 
-/* #f2f4f7, #DCE8D8, #3A2036, #ff8000, #f6f7f9, #dee2e6, #343a40, #E5E7EB, #0077b6 */
+/* #f2f4f7, #DCE8D8, #3A2036, #ff8000, #f6f7f9, #dee2e6, #343a40, #E5E7EB, #0077b6, #38b000, #d00000 */
 
 * {
     margin: 0;
@@ -224,7 +224,7 @@ label {
 /* ====== VALIDATION ====== */
 
 .input-validation {
-    color: red;
+    color: #d00000;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 11px;
     font-weight: 600;
@@ -232,9 +232,9 @@ label {
 }
 
 input:user-valid {
-    border-color: green;
+    border-color: #38b000;
 }
 
 input:user-invalid {
-    border-color: red;
+    border-color: #d00000;
 }
