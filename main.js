@@ -18,8 +18,10 @@ function passConfCheck() {
     const passConfValue = passInputConf.value;
 
     if (passValue !== passConfValue) {
+        passInputConf.setCustomValidity("Password did not match");
         passSpanConf.textContent = "Password did not match";
     } else if (passValue === passConfValue) {
+        passInputConf.setCustomValidity("");
         passSpanConf.textContent = "";
     }
 }
