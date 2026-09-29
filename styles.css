@@ -191,7 +191,7 @@ label {
     justify-content: space-between;
 }
 
-.logo {
+.logo-container {
     background-color: black;
     opacity: 80%;
     width: 100%;
