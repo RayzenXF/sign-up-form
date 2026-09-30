@@ -234,6 +234,15 @@ label {
     letter-spacing: 1.2px;
 }
 
+.footer-link {
+    color: rgb(200 200 200);
+    transition: 0.2s;
+}
+
+.footer-link:hover {
+    color: white;
+}
+
 /* ====== VALIDATION ====== */
 
 .input-validation {
