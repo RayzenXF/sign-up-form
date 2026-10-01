@@ -263,3 +263,11 @@ input:user-valid {
 input:user-invalid {
     border-color: #d00000;
 }
+
+input[type="password"]:focus:invalid {
+    border-color: #d00000;
+}
+
+input[type="password"]:focus:valid {
+    border-color: #38b000;
+}
