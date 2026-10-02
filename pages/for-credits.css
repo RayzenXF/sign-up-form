@@ -13,3 +13,11 @@ body {
     align-items: center;
     flex-direction: column;
 }
+
+#title {
+    background-color: #f6f7f9;
+    width: 100%;
+    padding: 20px 0;
+    text-align: center;
+    border-bottom: 5px solid #3A2036;
+}
