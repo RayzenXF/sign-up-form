@@ -1,3 +1,10 @@
 body {
-    background-color: black;
+    background-color: #dee2e6;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 }
