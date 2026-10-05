@@ -14,13 +14,7 @@ body {
     flex-direction: column;
 }
 
-#title {
-    background-color: #f6f7f9;
-    width: 100%;
-    padding: 20px 0;
-    text-align: center;
-    border-bottom: 5px solid #3A2036;
-}
+/* ====== IMAGES ====== */
 
 .image-container {
     margin: 30px 0;
@@ -42,6 +36,16 @@ img:hover {
     box-shadow: 0px 5px 10px 0px #000000;
 }
 
+/* ====== TEXT & LINKS ====== */
+
+#title {
+    background-color: #f6f7f9;
+    width: 100%;
+    padding: 20px 0;
+    text-align: center;
+    border-bottom: 5px solid #3A2036;
+}
+
 .text {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     margin-top: 5px;
@@ -60,6 +64,8 @@ img:hover {
 .credit-link:hover {
     color: #8d4e83;
 }
+
+/* ====== BUTTON ====== */
 
 .return {
     padding: 10px 40px;
