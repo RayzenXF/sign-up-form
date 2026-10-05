@@ -50,13 +50,39 @@ img:hover {
     letter-spacing: 1.2px;
 }
 
-a {
+.credit-link {
     font-family: sans-serif, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue';
     color: #3A2036;
     font-weight: bold;
     transition: 0.2s;
 }
 
-a:hover {
+.credit-link:hover {
     color: #8d4e83;
+}
+
+.return {
+    padding: 10px 40px;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    background-color: #3A2036;
+    text-decoration: none;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    letter-spacing: 1.2px;
+    box-shadow: 0px 0px 5px 1px rgba(0, 0, 0, 0.5);
+    transition: 0.2s;
+    margin-bottom: 30px;
+}
+
+.return:hover {
+    cursor: pointer;
+    background-color: white;
+    color: #3A2036;
+}
+
+.return:active {
+    transform: scale(0.9);
 }
