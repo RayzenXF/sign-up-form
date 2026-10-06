@@ -132,7 +132,6 @@ label {
 }
 
 #log-in-link {
-    text-decoration: none;
     color: var(--accent-clr);
     font-weight: bold;
     transition: 0.2s;
@@ -140,7 +139,7 @@ label {
 
 #log-in-link:hover {
     color: #8d4e83;
-    text-decoration: underline;
+    text-decoration: none;
 }
 
 /* ====== INPUTS ====== */
@@ -244,6 +243,7 @@ label {
 
 .footer-link:hover {
     color: white;
+    text-decoration: none;
 }
 
 /* ====== VALIDATION ====== */
