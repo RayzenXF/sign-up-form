@@ -28,14 +28,14 @@ This registration form was created for a fictional sim-racing club, which is why
 ## What I learned
 
 - Basic website structure ✅
-- User interaction via CSS ✅
+- CSS pseudo-classes and selectors ✅
 - Details about inputs ✅
 - Adding fonts ✅
-- JavaScript 'setCustomValidity()' function ✅
+- Custom form validation using setCustomValidity() ✅
 
 ## Acknowledgements
 
 Project idea from The Odin Project Foundations course 🙏
 
-This project marks the completion of the Foundations course in The Odin Project.
+This project marks the completion of the Foundations course in [The Odin Project](https://www.theodinproject.com/).
 It was a fun challenge that helped me combine HTML, CSS, JavaScript and Git into one complete application!
